@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Background hitam */
+    color: #00FF00; /* Tulisan berwarna hijau */
+}
+
+header {
+    background-color: #1a1a1a; /* Header dengan warna abu-abu gelap */
+    color: #00FF00; /* Tulisan header berwarna hijau */
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 4px 2px -2px gray; /* Sedikit bayangan untuk efek */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #00FF00; /* Link berwarna hijau */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #33FF33; /* Warna link berubah saat hover */
+}
+
+section {
+    padding: 2em;
+    background-color: #1a1a1a; /* Background section abu-abu gelap */
+    margin: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.5); /* Bayangan hijau di section */
+    color: #00FF00; /* Teks section berwarna hijau */
+}
+
+footer {
+    text-align: center;
+    padding: 0.5em; /* Mengurangi padding */
+    background-color: #1a1a1a;
+    color: #00FF00;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 2px -2px gray;
+    font-size: 0.9em; /* Mengurangi ukuran teks */
+}
